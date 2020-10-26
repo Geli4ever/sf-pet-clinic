@@ -1,2 +1,2 @@
-# SF5-pet-clinic
+# SF-pet-clinic
 Pet Clinic
