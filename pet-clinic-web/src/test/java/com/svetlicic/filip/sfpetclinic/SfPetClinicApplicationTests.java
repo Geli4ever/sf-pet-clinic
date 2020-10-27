@@ -1,4 +1,4 @@
-package sfpetclinic;
+package com.svetlicic.filip.sfpetclinic;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
