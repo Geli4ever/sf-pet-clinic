@@ -1,16 +1,16 @@
 package com.svetlicic.filip.sfpetclinic.model;
 
-import javax.persistence.Entity;
-import javax.persistence.GeneratedValue;
-import javax.persistence.GenerationType;
-import javax.persistence.Id;
+import java.util.Set;
 
-@Entity
 public class Vet extends Person {
 
-    @Id
-    @GeneratedValue(strategy = GenerationType.AUTO)
-    private Long id;
+    private Set<Specialty> specialties;
 
+    public Set<Specialty> getSpecialties() {
+        return specialties;
+    }
 
+    public void setSpecialties(Set<Specialty> specialties) {
+        this.specialties = specialties;
+    }
 }
